@@ -1,0 +1,13 @@
+<h1>Добавить новую книгу</h1>
+<form action="/books/add" method="POST">
+  <div>
+    <label for="title">Название:</label>
+    <input type="text" id="title" name="title" required>
+  </div>
+  <div>
+    <label for="author">Автор:</label>
+    <input type="text" id="author" name="author" required>
+  </div>
+  <button type="submit">Добавить книгу</button>
+</form>
+<a href="/books">Вернуться к списку книг</a>
